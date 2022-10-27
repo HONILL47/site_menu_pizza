@@ -1,0 +1,27 @@
+body {
+    background: url("images/main_background.jpg") no-repeat center fixed;
+    background: linear-gradient(0deg, rgba(0 0 0 / 54%), rgba(0 0 0 / 69%)), url("images/main_background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.main_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+}
